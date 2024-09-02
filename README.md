@@ -8,6 +8,6 @@ https://kc-intro-portfolio.netlify.app/
 
 
 # Most recent update: Sep 1, 2024
-Please note this portfolio is "in progress" and may be missing project or have out-of-date information.
+Please note this portfolio is "in progress" and may be missing projects or have out-of-date information.
 
 Thank you.
