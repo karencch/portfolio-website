@@ -39,7 +39,7 @@
     <section id="profile">
       <div class="section__pic-container">
         <img
-          src="./assets/profile-pic.jpeg"
+          src="./assets/profile-pic.jpg"
           alt="Karen Chun profile picture"
           id="profile-pic-1"
         />
@@ -47,13 +47,19 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Karen Chun</h1>
-        <p class="section__text__p2">Developer</p>
+        <p class="section__text__p2">Developer / Data Analyst</p>
         <div class="btn-container">
+          <!-- <button
+          class="btn btn-color-2"
+          onclick="window.open('./assets/resume-example.pdf')"          
+          >
+          Download Resume
+        </button> -->
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="location.href='https://www.linkedin.com/in/karen-chun-1ba8b163/'"
           >
-            Download Resume
+            LinkedIn
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
@@ -94,8 +100,18 @@
                 alt="experience icon"
                 class="icon"
               />
-              <h3>Experience</h3>
-              <p>Project #1: pending<br />Internship #1: pending</p>
+              <h3>Related Experiences</h3>
+              <p>
+                Data Analyst (Apr 2024 - Present) <br />Clinical Data Specialist
+                (Sep 2022 - Apr 2024)<br />
+                Qwasar Silicon Valley Student (Formerly 42 Silicon Valley) (Apr
+                2022 - Apr 2023)
+                <!-- <ul>
+                  <li>Data Analyst (Apr 2024 to Present)</li>
+                  <li>Clinical Data Specialist (Sep 2022 - Apr 2024)</li>
+                  <li>Qwasar Silicon Valley (Formerly 42 Silicon Valley) (Apr 2022 - Apr 2023)</li>
+                </ul> -->
+              </p>
             </div>
             <div class="details-container">
               <img
@@ -105,19 +121,26 @@
               />
               <h3>Education</h3>
               <p>
-                B.S. Computer Science (Class of 2024)<br />Doctor of Physical
-                Therapy<br />B.A. Biological Sciences
+                B.S. Computer Science (Jul 2024)<br />Doctor of Physical
+                Therapy<br />M.A. Occupational Therapy<br />B.A. Biological
+                Sciences
               </p>
             </div>
           </div>
           <div class="text-containeer">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-              quasi debitis rerum culpa dolor vel cum provident ut distinctio
-              et. Ea excepturi cum veniam! Nulla enim repellendus atque eligendi
-              pariatur numquam velit similique dolore veniam dignissimos
-              possimus perspiciatis repudiandae nam hic odio quia, mollitia
-              nobis saepe. Ab vero exercitationem vitae?
+              I am a recent computer science graduate (I was a healthcare worker
+              prior to pursuing my passion for technology). The skills I bring
+              to my new career from my previous career are adaptability,
+              professionalism, experience working in teams to reach high stakes
+              goals, and commitment to lifelong learning. <br /><br />I
+              currently work as a data analyst, but my goal is to become a
+              software/web developer; interests are backend development/data
+              engineer. In my current role, I use Python and SQL regularly to
+              create ad-hoc and routine reports for my department. One of my
+              duties is quality control of the complex medical data in our
+              database (Oracle). I also collaborate with our software engineer
+              on user testing and managing software bugs.
             </p>
           </div>
         </div>
@@ -144,19 +167,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>MySQL</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
                   <h3>Python</h3>
-                  <p>Basic</p>
+                  <!-- <p>Intermediate</p> -->
                 </div>
               </article>
               <article>
@@ -167,7 +179,29 @@
                 />
                 <div>
                   <h3>Java</h3>
-                  <p>Basic</p>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Javascript</h3>
+                  <!-- <p>Basic</p> -->
                 </div>
               </article>
               <article>
@@ -178,7 +212,7 @@
                 />
                 <div>
                   <h3>HTML</h3>
-                  <p>Basic</p>
+                  <!-- <p>Basic</p> -->
                 </div>
               </article>
               <article>
@@ -189,18 +223,7 @@
                 />
                 <div>
                   <h3>CSS</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
+                  <!-- <p>Basic</p> -->
                 </div>
               </article>
             </div>
@@ -216,7 +239,7 @@
                 />
                 <div>
                   <h3>LPI Linux Essentials</h3>
-                  <p>Pending</p>
+                  <p>Jun 2024</p>
                 </div>
               </article>
               <article>
@@ -226,8 +249,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>ITIL v4</h3>
-                  <p>Pending</p>
+                  <h3>ITIL v4 Foundation</h3>
+                  <p>Mar 2024</p>
                 </div>
               </article>
             </div>
@@ -249,40 +272,20 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-1.png"
+                src="./assets/project-1.jpg"
                 alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">
-              Project One Pending
-            </h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com'"
-              >
-                Github
-              </button>
-              <!-- <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com'"
-              >
-                Live Demo
-              </button> -->
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-2.jpg"
-                alt="Project 2"
                 class="project-img"
               />
             </div>
             <h2 class="experience-sub-title project-title">
               HLA Mismatch Calculator
             </h2>
+            <p>
+              A simple program I created for co-workers to quickly calculate
+              difference in antigens/alleles in donor vs recipient in blood/bone
+              marrow transplants
+            </p>
+            <br />
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -301,27 +304,61 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-3.png"
+                src="./assets/project-2.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Package Delivery Truck Route Optimization
+            </h2>
+            <p>Final Project for Data Structures and Algorithms II Course</p>
+            <br />
+            <div class="btn-container">
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://hlacalculator.netlify.app/'"
+              >
+                Demo
+              </button> -->
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/karencch/data-struc-alg-II-class-project'"
+              >
+                Github Repository
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.jpg"
                 alt="Project 3"
                 class="project-img"
               />
             </div>
             <h2 class="experience-sub-title project-title">
-              Project Three Placeholder
+              Computer Science Degree Capstone
             </h2>
+            <p>
+              Topic: Using a Machine Learning Model (Linear Regression) to
+              Predict Days to Neutrophil Recovery After Blood or Bone Marrow
+              Transplant in Pediatric Patients
+            </p>
+            <br />
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com'"
+                onclick="location.href='https://colab.research.google.com/drive/1FocwHEEZs3rYAgSegSW7ekBBaxxUtoQy?usp=sharing'"
+              >
+                Demo
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/karencch/cs-capstone-final-project'"
               >
                 Github
               </button>
-              <!-- <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com'"
-              >
-                Live Demo
-              </button> -->
             </div>
           </div>
         </div>
